@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: 'Passion';
+    src: url('fontes/Passion_One/PassionOne-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url('fontes/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8vh;
+}
+header h1{
+    font-family: 'Passion';
+    font-size: 10vw;
+    margin: 0px;
+}
+
+header p, footer p {
+    font-size: 3vh;
+}
+
+article {
+    padding: 2.5em;
+}
+
+article.imagem {
+    background-color: grey;
+    color: white;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.349);
+}
+
+article p{
+    font-family: 'Sriracha';
+    font-size: 3.8vw;
+}
+
+article.normal p{
+    margin: 2em 0px;
+}
+
+article.imagem p {
+    background-color: rgba(0, 0, 0, 0.349);
+    width: fit-content;
+    padding: 20px;
+    text-shadow: 1px 1px 0px black;
+}
+
+article#flor {
+    background: black url("imagens/background001.jpg") right no-repeat fixed;
+    background-size: cover;
+}
+article#carta {
+    background: black url("imagens/background002.jpg") center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+footer p {
+    font-size: 1em;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
