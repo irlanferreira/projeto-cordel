@@ -58,11 +58,11 @@ article.imagem p {
 }
 
 article#flor {
-    background: black url("imagens/background001.jpg") center no-repeat fixed;
+    background: black url("imagens/background001.jpg") right no-repeat fixed;
     background-size: cover;
 }
 article#carta {
-    background: black url("imagens/background002.jpg") center no-repeat fixed;
+    background: black url("imagens/background002.jpg") right no-repeat fixed;
     background-size: cover;
 }
 
